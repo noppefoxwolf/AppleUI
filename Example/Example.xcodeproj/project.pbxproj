@@ -10,11 +10,13 @@
 		372F2BE424DC5D1D00B735AA /* Clock.Alerm.Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F2BE324DC5D1D00B735AA /* Clock.Alerm.Cell.swift */; };
 		372F2BE624DC5D7400B735AA /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F2BE524DC5D7400B735AA /* Clock.swift */; };
 		378E2DCA24DC612600BB4B00 /* Clock.StopWatch.Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E2DC924DC612600BB4B00 /* Clock.StopWatch.Button.swift */; };
+		3793D67224DC685500D53698 /* AppleStore.Shopping.LargeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793D67124DC685500D53698 /* AppleStore.Shopping.LargeItem.swift */; };
+		3793D67424DC6CF700D53698 /* AppleStore.Shopping.PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793D67324DC6CF700D53698 /* AppleStore.Shopping.PurchaseButton.swift */; };
+		3793D67724DC6DD100D53698 /* AppleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793D67624DC6DD100D53698 /* AppleStore.swift */; };
 		3796D4FE24DC04FC0090979C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796D4FD24DC04FC0090979C /* App.swift */; };
 		3796D50024DC04FC0090979C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796D4FF24DC04FC0090979C /* ContentView.swift */; };
 		3796D50224DC04FD0090979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3796D50124DC04FD0090979C /* Assets.xcassets */; };
 		3796D50524DC04FD0090979C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3796D50424DC04FD0090979C /* Preview Assets.xcassets */; };
-		3796D50F24DC05500090979C /* AppleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796D50E24DC05500090979C /* AppleUI.swift */; };
 		3796D51124DC058A0090979C /* Clock.GlobalClock.Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796D51024DC058A0090979C /* Clock.GlobalClock.Cell.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +24,15 @@
 		372F2BE324DC5D1D00B735AA /* Clock.Alerm.Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.Alerm.Cell.swift; sourceTree = "<group>"; };
 		372F2BE524DC5D7400B735AA /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		378E2DC924DC612600BB4B00 /* Clock.StopWatch.Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.StopWatch.Button.swift; sourceTree = "<group>"; };
+		3793D67124DC685500D53698 /* AppleStore.Shopping.LargeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.Shopping.LargeItem.swift; sourceTree = "<group>"; };
+		3793D67324DC6CF700D53698 /* AppleStore.Shopping.PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.Shopping.PurchaseButton.swift; sourceTree = "<group>"; };
+		3793D67624DC6DD100D53698 /* AppleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.swift; sourceTree = "<group>"; };
 		3796D4FA24DC04FC0090979C /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3796D4FD24DC04FC0090979C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		3796D4FF24DC04FC0090979C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3796D50124DC04FD0090979C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3796D50424DC04FD0090979C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3796D50624DC04FD0090979C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3796D50E24DC05500090979C /* AppleUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleUI.swift; sourceTree = "<group>"; };
 		3796D51024DC058A0090979C /* Clock.GlobalClock.Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.GlobalClock.Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,8 +85,19 @@
 		3793D67024DC66D000D53698 /* AppleStore */ = {
 			isa = PBXGroup;
 			children = (
+				3793D67524DC6DC000D53698 /* Shopping */,
+				3793D67624DC6DD100D53698 /* AppleStore.swift */,
 			);
 			path = AppleStore;
+			sourceTree = "<group>";
+		};
+		3793D67524DC6DC000D53698 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				3793D67124DC685500D53698 /* AppleStore.Shopping.LargeItem.swift */,
+				3793D67324DC6CF700D53698 /* AppleStore.Shopping.PurchaseButton.swift */,
+			);
+			path = Shopping;
 			sourceTree = "<group>";
 		};
 		3796D4F124DC04FC0090979C = {
@@ -136,7 +151,6 @@
 			children = (
 				3793D67024DC66D000D53698 /* AppleStore */,
 				372F2BE024DC5C9100B735AA /* Clock */,
-				3796D50E24DC05500090979C /* AppleUI.swift */,
 			);
 			path = AppleUI;
 			sourceTree = "<group>";
@@ -213,10 +227,12 @@
 				372F2BE624DC5D7400B735AA /* Clock.swift in Sources */,
 				3796D50024DC04FC0090979C /* ContentView.swift in Sources */,
 				3796D4FE24DC04FC0090979C /* App.swift in Sources */,
+				3793D67224DC685500D53698 /* AppleStore.Shopping.LargeItem.swift in Sources */,
 				372F2BE424DC5D1D00B735AA /* Clock.Alerm.Cell.swift in Sources */,
+				3793D67724DC6DD100D53698 /* AppleStore.swift in Sources */,
 				3796D51124DC058A0090979C /* Clock.GlobalClock.Cell.swift in Sources */,
+				3793D67424DC6CF700D53698 /* AppleStore.Shopping.PurchaseButton.swift in Sources */,
 				378E2DCA24DC612600BB4B00 /* Clock.StopWatch.Button.swift in Sources */,
-				3796D50F24DC05500090979C /* AppleUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
